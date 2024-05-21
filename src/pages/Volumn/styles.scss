@@ -1,0 +1,21 @@
+menu.bar.header.volumn {
+  margin-top: 90px;
+
+  .item {
+    cursor: pointer;
+  }
+}
+
+#main section.volumn {
+  padding-top: 192px;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    height: inherit;
+  }
+}

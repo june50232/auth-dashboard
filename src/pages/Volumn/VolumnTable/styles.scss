@@ -1,0 +1,53 @@
+.responsive {
+  display:block;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.table-all {
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+  min-width: 650px;
+  overflow-x: auto;
+  display:table;
+
+  th, td {
+    padding: 16px 8px;
+  }
+
+  .th-bg .th-hover-bg:hover {
+    background-color:lightgray!important
+  }
+
+  tbody td {
+    text-align: center;
+  }
+
+  &.hoverable tbody tr:not(.chart):hover{
+    background-color:#ccc;
+    cursor: pointer;
+  }
+
+  .chart {
+    border-radius: 8px;
+    border: 1px dotted blue;
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+    &.checked {
+      background-color: blue;
+    }
+  }
+}

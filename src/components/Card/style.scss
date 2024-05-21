@@ -1,0 +1,82 @@
+@import '../../utils/variables.scss';
+
+.card {
+  border-radius: 3px;
+  background-color: white;
+  padding: $card-spacing;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.grow-2 {
+    flex-grow: 2;
+  }
+
+  @media (max-width:768px){
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.grow-2 {
+      flex-grow: 1;
+    }
+  }
+}
+
+.card-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.border {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .card {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-right: 1px solid $brand-gray-color;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  @media (max-width:768px){
+    flex-direction: column;
+    width: 100%;
+    
+    &.border .card {
+      border-right: none;
+      border-bottom: 1px solid $brand-gray-color;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+} 

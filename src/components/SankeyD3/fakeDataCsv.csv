@@ -1,0 +1,70 @@
+source,target,value
+A,Agricultural 'waste',35
+A,Bio-conversion,81.144
+A,Coal reserves,63.965
+A,Coal,75.571
+A,District heating,46.184
+A,Electricity grid,27.14
+A,Biomass imports,7.863
+A,Biofuel imports,93.494
+A,Gas,151.891
+A,Gas imports,48.58
+A,H2 conversion,6.242
+A,Liquid,135.835
+A,Geothermal,206.267
+A,Gas reserves,4.413
+A,Solid,46.477
+A,Thermal generation,79.329
+C,Agricultural 'waste',124.729
+C,Bio-conversion,26.862
+C,Biofuel imports,35
+C,Coal imports,11.606
+C,District heating,10.639
+C,Electricity grid,104.453
+C,Coal,342.165
+C,Coal reserves,4.412
+C,Biomass imports,56.691
+C,Gas imports,40.719
+C,Gas,0.129
+C,Geothermal,7.013
+C,H2,20.897
+C,Hydro,6.995
+C,Liquid,121.066
+C,Gas imports,3.64
+C,Gas reserves,33.218
+C,Marine algae,4.375
+C,Ngas,122.952
+C,Nuclear,839.978
+C,Oil imports,504.287
+C,Oil reserves,107.703
+C,Oil,611.99
+C,Other waste,56.587
+C,Pumped heat,193.026
+C,Solar PV,59.901
+C,Solar Thermal,19.263
+C,Solar,19.263
+C,Solid,0.882
+C,Thermal generation,525.531
+C,Tidal,9.452
+C,UK land based bioenergy,182.01
+C,Wave,19.013
+C,Wind,289.366
+B,Agricultural 'waste',0.597
+B,Bio-conversion,280.322
+B,Biomass imports,35
+B,District heating,22.505
+B,Electricity grid,113.726
+B,Coal,37.797
+B,Coal reserves,40.858
+B,Biofuel imports,90.008
+B,Gas reserves,82.233
+B,Gas,1.401
+B,Gas imports,2.096
+B,H2 conversion,20.897
+B,Liquid,128.69
+B,Geothermal,14.458
+B,Other waste,77.81
+B,Pumped heat,70.672
+B,Solar,59.901
+B,Solid,400.12
+B,Thermal generation,787.129

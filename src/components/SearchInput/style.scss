@@ -1,0 +1,25 @@
+$input-color: #78869A;
+
+.search-input {
+  width: 220px;
+  border: 1px solid #F3F4F8;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+
+  .icon {
+    color: $input-color;
+  }
+
+  input {
+    padding: 12px 8px;
+    display: block;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: $input-color;
+    font-size: 12px;
+  }
+}
